@@ -146,15 +146,24 @@ body {
     
 }
 
-@media (max-width: 600px){
-
+@media (max-width: 767px) {
     .container {
-        background-color: blue;
-        flex-direction: column;
+      max-width: 100%;
+      padding: 10px;
     }
-
-    .items {
-        display: none;
+    .navbar {
+      display: block;
+      text-align: center;
     }
-
-}
+    .navbar a {
+      display: block;
+      padding: 10px;
+    }
+    .content {
+      display: block;
+    }
+    .card {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
