@@ -42,18 +42,18 @@ body {
 }
 
 .navbar {
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center; 
     gap: 30px; 
     margin: 0 auto; 
 }
 
-.unidades-nav, .doctrinas-nav, .suministros-nav, .mapas-nav {
-    display: inline-flex;
+.unidades-nav{
+    display: inline;
     padding: 10px 20px;
     margin-right: 20px;
-    align-items: center;
+    align-items: center ;
     background-color: #284f8a;
     color: white;
     border-radius: 15px;
@@ -64,7 +64,7 @@ body {
     
 }
 
-.unidades-nav:hover, .doctrinas-nav:hover, .suministros-nav:hover, .mapas-nav:hover {
+.unidades-nav:hover{
     background-color: rgb(28, 69, 145);
     transform: translateY(-2px);
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
